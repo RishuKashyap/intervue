@@ -308,14 +308,14 @@ span{
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 1.5rem;
 }
 
 .video-wrapper {
   
-  width: 220px;
-  height: 110px;
+  width: 440px;
+  height: 180px;
   border-radius: 20px;
   background-image: url('./assets/video.jpg');
   background-size: contain;
@@ -329,7 +329,7 @@ span{
 
 
 .testimonial-text {
-  text-align: center;
+  text-align: left;
   max-width: 400px;
 }
 
@@ -371,11 +371,15 @@ span{
   gap: 1rem;
 }
 
+.product-card p{
+  width: 80%;
+}
+
 .product-card {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  
+  width: fit-content;
   height: fit-content;
   padding: 1rem;
   border-radius: 12px;
@@ -394,11 +398,11 @@ span{
   color: #555;
 }
 
-.product-card {
+  /* .product-card {
     width: 100%;
-  }
+  } */
   .product-image{
-    width: 90%;
+    width: 100%;
   }
 
   .product-image img{
@@ -794,7 +798,7 @@ button{
     width: 30%;
   }
   .product-image{
-    width: 90%;
+    width: 100%;
   }
 
   .product-image img{
